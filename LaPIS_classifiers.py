@@ -170,7 +170,7 @@ def Gaussian_Process():
 
 # Setting the chosen classifier
 
-print "Importing chosen classifier from scikit-learn..."
+print("Importing chosen classifier from scikit-learn...")
 
 if classifier == 'Random_Forest':
     from sklearn.ensemble import RandomForestClassifier
